@@ -6,15 +6,32 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-         <form id="Quizy" action="index.html" method="POST" name="Quizy">
-            <div class="well">
-                <form id="Quizy" action="index.html" method="POST" name="Quizy">
-                    <p><strong> 1. Which of the following leaker do you like?</strong></p>
-                    <br>
-                    <input type="radio" name="questionOne" id="mc" value="wrong">!!Jebel!!<br>
-                    <input type="radio" name="questionOne" id="mc" value="correct">!!Kibenje!!<br>
-                    <input type="radio" name="questionOne" id="mc" value="wrong">!Chromium!!<br>
-            </div>
-            </form>
+    <!DOCTYPE >
+    <html>
+
+    <head>
+        <script src="js/script.js"></script>
+    </head>
+    <title>QUIZ BOARD</title>
+
+    <body>
+        <div class="container">
+                <br>
+                    <form id="Quiz" action="index.html" method="POST" name="Quiz">
+                        <p><strong> 1. What do you want for lunch?</strong></p>
+                        <br>
+                        <input type="radio" name="questionOne" value="wrong">Maembe<br>
+                        <input type="radio" name="questionOne" value="correct">Uji<br>
+                        <input type="radio" name="questionOne" value="wrong">Leaker<br>
+            <input type="button" name="results" onClick="check()" value="!!!Submit!!!">
+            <marquee>
+        <div id="Results">
+            <p id="correctNumber">HERE IS YOUR SCORE:</p>
+        </div>
+        </marquee>
+      </div>
+
+    </body>
+    <html>
   </body>
 </html>

@@ -1,12 +1,28 @@
 function check() {
     var questionOne = document.Quiz.questionOne.value;
-    var right = 0;
+    var questionTwo = document.Quiz.questionTwo.value;
+    var questionThree = document.Quiz.questionThree.value;
+    var questionFour = document.Quiz.questionFour.value;
+    var questionFive = document.Quiz.questionFive.value;
 
+    var right =0;
+    // DEBUG:
 
     if (questionOne == "correct") {
         right = right + 20;
     };
+    if (questionTwo == "correct") {
+        right = right + 20;
+    };
+    if (questionThree == "correct") {
+        right = right + 20;
+    };
+    if (questionFour == "correct") {
+        right = right + 20;
+    };
+    if (questionFive == "correct") {
+        right = right + 20;
+    };
     document.getElementById("Results").style.visibility = "visible";
     document.getElementById("correctNumber").innerHTML = "HERE IS YOUR SCORE: " + right + "%";
-
 };

@@ -6,7 +6,7 @@ function check() {
     var questionFive = document.Quiz.questionFive.value;
 
     var right =0;
-    // DEBUG:
+
 
     if (questionOne == "correct") {
         right = right + 20;

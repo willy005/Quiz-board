@@ -1,4 +1,15 @@
 body{
-  background-color: crimson;
   margin-left: 50px;
+}
+.mainContent{
+  float: right;
+  width: 80%;
+}
+.leftBar{
+  float: left;
+  width: 10%;
+}
+.rightBar{
+  float: right;
+  width: 10%;
 }

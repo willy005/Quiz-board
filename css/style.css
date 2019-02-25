@@ -2,17 +2,5 @@ body{
   margin-left: 50px;
 }
 .mainContent{
-  float: right;
-  width: 80%;
-}
-.leftBar{
-  float: left;
-  width: 10%;
-}
-.rightBar{
-  background-image: url("../images/smoky.jpg");
-  background-image: url("../image/max.jpg");
-
-  float: right;
-  width: 10%;
+margin-left: 35%;
 }

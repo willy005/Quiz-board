@@ -10,6 +10,9 @@ body{
   width: 10%;
 }
 .rightBar{
+  background-image: url("../images/smoky.jpg");
+  background-image: url("../image/max.jpg");
+
   float: right;
   width: 10%;
 }

@@ -5,7 +5,8 @@
 #
 #  Requirements!
 #A running network connection to the internet.
-#A web browser
+#A web browser.
+#And also a good gadget.
 #
 #  Deployment!
 #Enter the link (https://willy005.github.io/Quiz-board/) into the url interface and click the enter.

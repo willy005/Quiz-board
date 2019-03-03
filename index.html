@@ -1,76 +1,62 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>!!Quiz Board!!</title>
-    <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
-    <link rel="stylesheet" href="js/jQuery-3.0.0.js">
-  </head>
-  <body>
-    <!DOCTYPE >
-    <html>
+<head>
+  <meta charset="utf-8">
+  <title>!!Quiz Board!!</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+</head>
+<body>
+  <h1>Quiz Board</h1>
+  <div class="container">
+    <p id="p1">Hi i hope you like My Quiz-Board!
+      <br>
+      Note that (/) stands for the opening and closing tags!
+    </p>
+    <div class="mainContent">
+      <form id="Quiz" action="index.html" method="POST" name="Quiz">
+        <p><strong> 1. Which of these elements are all /table/ elements?</strong></p>
+        <br>
+        <input type="radio" name="questionOne" value="wrong">/head/<br>
+        <input type="radio" name="questionOne" value="correct">/table//tr//td/<br>
+        <input type="radio" name="questionOne" value="wrong">/body/<br>
 
-    <head>
-        <script src="js/script.js"></script>
-    </head>
-    <title>QUIZ BOARD</title>
 
-    <body>
-        <div class="container">
+        <form id="Quiz" action="index.html" method="POST" name="Quiz">
+          <p><strong> 2. Which character is used to indicate an end tag?</strong></p>
+          <br>
+          <input type="radio" name="questionTwo" value="wrong"><<br>
+          <input type="radio" name="questionTwo" value="correct">><br>
+          <input type="radio" name="questionTwo" value="wrong">/<br>
+
+          <form id="Quiz" action="index.html" method="POST" name="Quiz">
+            <p><strong> 3. Which of the following is correct?</strong></p>
+            <br>
+            <input type="radio" name="questionThree" value="wrong">Other<br>
+            <input type="radio" name="questionThree" value="correct">JQuery is a Javascript library<br>
+            <input type="radio" name="questionThree" value="wrong">JQuery is a Jason library<br>
+
+            <form id="Quiz" action="index.html" method="POST" name="Quiz">
+              <p><strong> 4. Is jQuery a library for client scripting or server scripting?</strong></p>
+              <br>
+              <input type="radio" name="questionFour" value="wrong">Any<br>
+              <input type="radio" name="questionFour" value="correct">Client scripting<br>
+              <input type="radio" name="questionFour" value="wrong">Server Scripting<br>
+
+              <form id="Quiz" action="index.html" method="POST" name="Quiz">
+                <p><strong> 5. Did you like my Quiz-board?</strong></p>
                 <br>
-                  <p id="p1">Hi i hope you like My Quiz-Board!
-                  <br>
-                  Note that (/) stands for the opening and closing tags!
-                  </p>
-                <div class="mainContent">
-                    <form id="Quiz" action="index.html" method="POST" name="Quiz">
-                        <p><strong> 1. Which of these elements are all /table/ elements?</strong></p>
-                        <br>
-                        <input type="radio" name="questionOne" value="wrong">/head/<br>
-                        <input type="radio" name="questionOne" value="correct">/table//tr//td/<br>
-                        <input type="radio" name="questionOne" value="wrong">/body/<br>
-
-
-                            <form id="Quiz" action="index.html" method="POST" name="Quiz">
-                                <p><strong> 2. Which character is used to indicate an end tag?</strong></p>
-                                <br>
-                                <input type="radio" name="questionTwo" value="wrong"><<br>
-                                <input type="radio" name="questionTwo" value="correct">><br>
-                                <input type="radio" name="questionTwo" value="wrong">/<br>
-
-                                <form id="Quiz" action="index.html" method="POST" name="Quiz">
-                                    <p><strong> 3. Which of the following is correct?</strong></p>
-                                    <br>
-                                    <input type="radio" name="questionThree" value="wrong">Other<br>
-                                    <input type="radio" name="questionThree" value="correct">JQuery is a Javascript library<br>
-                                    <input type="radio" name="questionThree" value="wrong">JQuery is a Jason library<br>
-
-                                    <form id="Quiz" action="index.html" method="POST" name="Quiz">
-                                        <p><strong> 4. Is jQuery a library for client scripting or server scripting?</strong></p>
-                                        <br>
-                                        <input type="radio" name="questionFour" value="wrong">Any<br>
-                                        <input type="radio" name="questionFour" value="correct">Client scripting<br>
-                                        <input type="radio" name="questionFour" value="wrong">Server Scripting<br>
-
-                                        <form id="Quiz" action="index.html" method="POST" name="Quiz">
-                                            <p><strong> 5. Did you like my Quiz-board?</strong></p>
-                                            <br>
-                                            <input type="radio" name="questionFive" value="correct">Yes<br>
-                                            <input type="radio" name="questionFive" value="wrong">No<br>
-                                            <input type="radio" name="questionFive" value="wrong">Other<br>
-            <input type="button" name="results" onClick="check()" value="!!!Submit!!!" id="btn">
-            <marquee  behavior="alternate">
+                <input type="radio" name="questionFive" value="correct">Yes<br>
+                <input type="radio" name="questionFive" value="wrong">No<br>
+                <input type="radio" name="questionFive" value="wrong">Other<br>
+                <input type="button" name="results" onClick="check()" value="!!!Submit!!!" id="btn">
+                <marquee  behavior="alternate">
+                </div>
+                <div id="Results">
+                  <p id="correctNumber">HERE IS YOUR SCORE:</p>
+                </div>
+              </marquee>
             </div>
-        <div id="Results">
-            <p id="correctNumber">HERE IS YOUR SCORE:</p>
-        </div>
-        </marquee>
-      </div>
-      <video autoplay muted loop id="myVideo">
-        <source src="bgvideo.mp4" type="video/mp4">
-        </video>
-    </body>
-    <html>
-  </body>
+            <script src="js/script.js" src="js/jquery-3.0.0.js"></script>
+</body>
 </html>

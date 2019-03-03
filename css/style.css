@@ -1,8 +1,14 @@
 body{
   margin-left: 50px;
-  background-image: url(../images/2.jpg);
+  background-image: url(../images/4.jpg);
   color: white;
   font-size: 30px;
+}
+h1{
+  text-align: center;
+  color: crimson;
+  text-decoration: underline;
+  font-family: sans-serif;
 }
 .mainContent{
 margin-left: 30%;

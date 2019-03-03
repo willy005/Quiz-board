@@ -1,12 +1,12 @@
 # !!QUIZ-BOARD!!
 
-# By !!!Wilfred Mutura Ngugi!!!
+By !!!Wilfred Mutura Ngugi!!!
 
 # !!Technologies Embrassed!!
-HTML
-CSS
-JAVASCRIPT
-BOOTSTRAP
+HTML<br>
+CSS<br>
+JAVASCRIPT<br>
+BOOTSTRAP<br>
 JQUERY
 
 # !!!Requirements!!!

@@ -18,7 +18,7 @@
 This is a website that can be used to collect data from different people and at the end it gives them marks they have scored.
 
 # !!!How it works!!!
-Once you open this link (https://willy005.github.io/Quiz-board/) in your preffered browser a page pops up and you can fill my quiz and when you submit it feeds you back with the results.
+Once you open this link (https://willy005.github.io/Quiz-board/) in your preferred browser a page pops up and you can fill my quiz and when you submit it feeds you back with the results.
 
 # !!!License!!!
 This Web application has been licensed by the MIT License.

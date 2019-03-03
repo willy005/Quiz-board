@@ -3,11 +3,11 @@
 # By !!!Wilfred Mutura Ngugi!!!
 
 # !!Technologies Embrassed!!
-1.HTML
-2.CSS
-3.JAVASCRIPT
-4.BOOTSTRAP
-5.JQUERY
+HTML
+CSS
+JAVASCRIPT
+BOOTSTRAP
+JQUERY
 
 # !!!Requirements!!!
 1.A running network'
